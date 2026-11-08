@@ -13,6 +13,7 @@ data:
     
       location / {
         return 200 '$hostname\n';
+      }
     
       location /files {
         alias /data;

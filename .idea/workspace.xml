@@ -4,29 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="bfb60555-9540-4aa8-937d-6998290c7576" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Dockerfile" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build.gradle" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/configmap.yaml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/deployment.yaml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gradle/wrapper/gradle-wrapper.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gradle/wrapper/gradle-wrapper.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gradlew" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gradlew.bat" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pod.yaml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pvc.yaml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/replicaset.yaml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/secret.yaml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/service.yaml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/settings.gradle" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/project1/Controller.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/project1/Main.java" afterDir="false" />
+    <list default="true" id="bfb60555-9540-4aa8-937d-6998290c7576" name="Changes" comment="configmap.yaml added">
+      <change beforePath="$PROJECT_DIR$/configmap.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/configmap.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/deployment.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/deployment.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pvc.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/pvc.yaml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -79,64 +60,79 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
+  "lastFilter": {
+    "state": "OPEN",
+    "assignee": "JuliaKuznetsovaQA"
+  }
+}]]></component>
+  <component name="GithubPullRequestsUISettings"><![CDATA[{
+  "selectedUrlAndAccountId": {
+    "url": "https://github.com/JuliaKuznetsovaQA/MyProjectForDocker.git",
+    "accountId": "a99607ce-a22d-4a0a-bb20-29848e73337d"
+  }
+}]]></component>
   <component name="NextEditCompletionFeaturesState">
     <decayedCancelled>
-      <entry key="MS100" value="1.0" />
-      <entry key="MS500" value="1.0000000220598773" />
-      <entry key="S2" value="1.0121871111648413" />
-      <entry key="S5" value="1.1715382633811786" />
-      <entry key="S10" value="1.4157582701602331" />
-      <entry key="S30" value="2.5312294268077355" />
-      <entry key="S60" value="6.702351806256479" />
-      <entry key="M2" value="15.576586697080002" />
-      <entry key="M5" value="29.93957220179349" />
-      <entry key="M10" value="42.384576805850884" />
-      <entry key="M15" value="54.650959310370325" />
-      <entry key="M30" value="91.14852272729924" />
-      <entry key="H1" value="136.9309810184102" />
-      <entry key="H2" value="175.28068330300334" />
-      <entry key="H4" value="212.9903313621102" />
-      <entry key="D1" value="493.52488749515146" />
-      <entry key="W1" value="1353.321693753025" />
+      <entry key="MS100" value="1.0803758089069249" />
+      <entry key="MS500" value="2.618244282546579" />
+      <entry key="S2" value="6.634172272277811" />
+      <entry key="S5" value="9.54233909206333" />
+      <entry key="S10" value="11.050243500755485" />
+      <entry key="S30" value="12.291428357958441" />
+      <entry key="S60" value="12.637672031696447" />
+      <entry key="M2" value="12.816767202369626" />
+      <entry key="M5" value="12.926202681217564" />
+      <entry key="M10" value="12.963533519048873" />
+      <entry key="M15" value="13.010892909304019" />
+      <entry key="M30" value="15.575496341078809" />
+      <entry key="H1" value="36.849449298581106" />
+      <entry key="H2" value="98.36967288173906" />
+      <entry key="H4" value="201.604711748632" />
+      <entry key="D1" value="624.7559526072779" />
+      <entry key="W1" value="1556.185328890964" />
     </decayedCancelled>
     <decayedSelected>
       <entry key="MS100" value="0.0" />
       <entry key="MS500" value="0.0" />
-      <entry key="S2" value="6.994962229592606E-168" />
-      <entry key="S5" value="2.2183586647772635E-67" />
-      <entry key="S10" value="8.625966403773412E-34" />
-      <entry key="S30" value="3.279009487821997E-11" />
-      <entry key="S60" value="1.6573496957504504E-5" />
-      <entry key="M2" value="0.012102988366624696" />
-      <entry key="M5" value="0.638764844534729" />
-      <entry key="M10" value="2.4516191416141635" />
-      <entry key="M15" value="3.9858566716382304" />
-      <entry key="M30" value="7.102211769608517" />
-      <entry key="H1" value="10.229105363450152" />
-      <entry key="H2" value="12.65460637332009" />
-      <entry key="H4" value="14.437342432711988" />
-      <entry key="D1" value="20.69922067874203" />
-      <entry key="W1" value="46.85502748791381" />
+      <entry key="S2" value="0.0" />
+      <entry key="S5" value="0.0" />
+      <entry key="S10" value="0.0" />
+      <entry key="S30" value="1.3854804584338117E-241" />
+      <entry key="S60" value="1.0197627653674954E-120" />
+      <entry key="M2" value="3.1832132227127273E-60" />
+      <entry key="M5" value="7.383510772322657E-24" />
+      <entry key="M10" value="1.0762189592742785E-11" />
+      <entry key="M15" value="1.2957120553465606E-7" />
+      <entry key="M30" value="0.0017316555971573137" />
+      <entry key="H1" value="0.218747553562115" />
+      <entry key="H2" value="2.5587248737863786" />
+      <entry key="H4" value="8.936866798376187" />
+      <entry key="D1" value="29.24399186867686" />
+      <entry key="W1" value="60.10492890842859" />
     </decayedSelected>
     <decayedShown>
-      <entry key="MS100" value="0.9526379980439373" />
-      <entry key="MS500" value="0.9903428937798668" />
-      <entry key="S2" value="1.0097345061481329" />
-      <entry key="S5" value="1.170401947016011" />
-      <entry key="S10" value="1.4150715848512252" />
-      <entry key="S30" value="2.5308367408252352" />
-      <entry key="S60" value="6.7018831654076045" />
-      <entry key="M2" value="15.588033164716252" />
-      <entry key="M5" value="30.57558809201715" />
-      <entry key="M10" value="44.83137089769608" />
-      <entry key="M15" value="58.63157369278266" />
-      <entry key="M30" value="98.24590867216614" />
-      <entry key="H1" value="147.15650088123027" />
-      <entry key="H2" value="187.9330307976816" />
-      <entry key="H4" value="227.426378071368" />
-      <entry key="D1" value="514.2238127717636" />
-      <entry key="W1" value="1400.1766369974794" />
+      <entry key="MS100" value="1.0517496075691255" />
+      <entry key="MS500" value="2.6048044723455472" />
+      <entry key="S2" value="6.625990480113591" />
+      <entry key="S5" value="9.537770295930258" />
+      <entry key="S10" value="11.047625619060524" />
+      <entry key="S30" value="12.290464135098523" />
+      <entry key="S60" value="12.637177124924202" />
+      <entry key="M2" value="12.816516437715237" />
+      <entry key="M5" value="12.926101565728242" />
+      <entry key="M10" value="12.963482822737655" />
+      <entry key="M15" value="13.010859103237205" />
+      <entry key="M30" value="15.57720599577887" />
+      <entry key="H1" value="37.06809955849502" />
+      <entry key="H2" value="100.92793994940054" />
+      <entry key="H4" value="210.54079860495943" />
+      <entry key="D1" value="653.9995320490768" />
+      <entry key="W1" value="1616.2901471169262" />
     </decayedShown>
+  </component>
+  <component name="ProblemsViewState">
+    <option name="selectedTabId" value="CurrentFile" />
   </component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 3
@@ -289,5 +285,9 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="configmap.yaml added" />
+    <option name="LAST_COMMIT_MESSAGE" value="configmap.yaml added" />
   </component>
 </project>
